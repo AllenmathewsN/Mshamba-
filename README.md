@@ -20,23 +20,6 @@
   * jQuery - Used in manipulating the html content.
   * React
    
- ## Behaviour Driven Development
- * There is a form to collect users location
-   * Input - Enter your location
-   * output - Welcome to pharmacies in your location.
-
-   * Display an error if the button clicked with an empty input
-     * output - Enter your location
-
- * There is a form to collect users requested medicine.
-   * Input - search for medicines.
-   * output - lists of the drug with price from different pharmacies.
-
-   * Displays an error if button clicked with an empty search.
-     * output - Please enter Medicine you want.
-     
- 
-
    [Go Back to the top](#M-Shamba)
  ## DevelopMent
  <p> Need to contribute?? Follow the following steps.</p>
