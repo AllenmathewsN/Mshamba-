@@ -4,6 +4,7 @@ import About from "./components/About.jsx";
 import Content from "./components/content.jsx";
 import Table from "./components/Table.jsx";
 import { useState } from 'react';
+import Home from "./components/Home.jsx";
 
 
 
@@ -18,6 +19,7 @@ function App() {
  <About resourceType={resourceType}/>
  <Content />
  <Table />
+ <Home />
  </>
 );
 }

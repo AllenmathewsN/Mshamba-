@@ -5,7 +5,7 @@ import superFoods from "../images/superfoods.jpg";
 import freshOrganic from "../images/fresh organic.jpg";
 import greenBell from "../images/greenbell.jpg";
 import freshVegetables from "../images/freshvegetables.jpg";
-import "./Home.css";
+import "./home.css";
 
 function Home() {
   return (
