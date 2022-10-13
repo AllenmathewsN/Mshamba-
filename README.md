@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# M-Shamba
+ ##### This is a grocery e-commerce platform for farmers to sell their products and can compare prices for different commodities. The platform will have warehouses in different regions for farmers to bring their goods where they will be inspected for Quality Assurance. Selling in bulk will give them bargaining power as they will cut off all middle men in the process. We hope to see this platform become a household name in the East African market hopefully in future.
+ ## Table of Content
+ + [Description](#description)
+ + [Installation Requirement](#Installation)
+ + [Technology Used](#technology-used)
+ + [Reference](#reference)
+ + [Authors Info](#author-Info)
+ ## Description
+ <p>This is a grocery e-commerce platform for farmers to sell their products and can compare prices for different commodities. The platform will have warehouses in different regions for farmers to bring their goods where they will be inspected for Quality Assurance. Selling in bulk will give them bargaining power as they will cut off all middle men in the process. We hope to see this platform become a household name in the East African market hopefully in future.</p>
+ 
+ ## Installation
+ ### Requirements
+ * Either a computer,phone,tablet or an Ipad
+ * An access to the Internet
+ ## Technology Used
+ * HTML - which was used to build the structure of the pages.
+ * CSS - which was used to style the pages incuding the left aside navigation bar
+ * JavaScript - Used in manipulating the html content.
+  * jQuery - Used in manipulating the html content.
+  * React
+ ### SetUp instructions and installation
+ * Clone this repository to a location in your file system.
+ * Open terminal command line then navigate to the root folder of the application. 
+ * Open index.html on your Browser.
+  ```
+    $ git clone  git@github.com:AllenmathewsN/M-Shamba.git
+    $ cd ../path/to/the/file
+    $ code .
+   ```
+   [Go Back to the top](#M-Shamba)
+   
+ ## Live link
+ https://allenmathewsn.github.io/M-Shamba/
+   
+ ## Behaviour Driven Development
+ * There is a form to collect users location
+   * Input - Enter your location
+   * output - Welcome to pharmacies in your location.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   * Display an error if the button clicked with an empty input
+     * output - Enter your location
 
-## Available Scripts
+ * There is a form to collect users requested medicine.
+   * Input - search for medicines.
+   * output - lists of the drug with price from different pharmacies.
 
-In the project directory, you can run:
+   * Displays an error if button clicked with an empty search.
+     * output - Please enter Medicine you want.
+     
+ 
 
-### `npm start`
+   [Go Back to the top](#M-Shamba)
+ ## DevelopMent
+ <p> Need to contribute?? Follow the following steps.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ * Fork the repo
+ * Create a new branch 
+ ```
+  $ git switch -c (improve-feature)
+  ```
+ * Make the required changes in the file.
+ * Add changes to reflect the changes made.
+ * Commit your changes.
+  ```
+  $ git commit -am (improve-feature)
+  ```
+ * Push to the branch
+  ```
+  $ git push origin (improve-feature)
+   ```
+ * Create a Pull Request
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ 
 
-### `npm test`
+ ## Reference
+ * Materialize CSS
+ [Go Back to the top](#M-Shamba)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ## License 
+ MIT License
 
-### `npm run build`
+Copyright (c) 2022 Allen Mathews Ndirangu
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+[Go Back to the top](#M-Shamba)
+ ## Authors Info
