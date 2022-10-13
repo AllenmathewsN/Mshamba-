@@ -19,19 +19,6 @@
  * JavaScript - Used in manipulating the html content.
   * jQuery - Used in manipulating the html content.
   * React
- ### SetUp instructions and installation
- * Clone this repository to a location in your file system.
- * Open terminal command line then navigate to the root folder of the application. 
- * Open index.html on your Browser.
-  ```
-    $ git clone  git@github.com:AllenmathewsN/M-Shamba.git
-    $ cd ../path/to/the/file
-    $ code .
-   ```
-   [Go Back to the top](#M-Shamba)
-   
- ## Live link
- https://allenmathewsn.github.io/M-Shamba/
    
  ## Behaviour Driven Development
  * There is a form to collect users location
