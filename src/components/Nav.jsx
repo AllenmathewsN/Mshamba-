@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../images/logo.jpeg";
 import "./styles.css";
+import { NavLink } from "react-router-dom"
+
 
 
 
@@ -12,9 +14,12 @@ function Nav({toggleResourceType}){
             <h3>Mshamba</h3>
         </div>
         <div className="links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contacts">Contacts</a>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/contacts">Contacts</NavLink>
+            <NavLink to="/products">Products</NavLink>
+
+
             <button onClick={toggleResourceType}> Mshamba </button>   
             
         </div>

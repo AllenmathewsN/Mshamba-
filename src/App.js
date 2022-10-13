@@ -5,6 +5,7 @@ import Content from "./components/content.jsx";
 import Table from "./components/Table.jsx";
 import { useState } from 'react';
 import Home from "./components/Home.jsx";
+import Contacts from "./components/contact.jsx";
 
 
 
@@ -20,6 +21,7 @@ function App() {
  <Content />
  <Table />
  <Home />
+ <Contacts />
  </>
 );
 }
